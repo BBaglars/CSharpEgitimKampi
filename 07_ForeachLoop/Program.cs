@@ -76,52 +76,52 @@ namespace _07_ForeachLoop
 
             #region Örnek Sınav Sistemi 
 
-            Console.WriteLine("----- Öğrenci Sınav Sistemi -----");
-            Console.WriteLine();
-            Console.Write("Öğrenci Sayısını Giriniz: ");
-            int ogrenciSayi = int.Parse(Console.ReadLine());
-            Console.WriteLine();
+            //Console.WriteLine("----- Öğrenci Sınav Sistemi -----");
+            //Console.WriteLine();
+            //Console.Write("Öğrenci Sayısını Giriniz: ");
+            //int ogrenciSayi = int.Parse(Console.ReadLine());
+            //Console.WriteLine();
 
-            string name;
+            //string name;
 
-            int vize, final;
+            //int vize, final;
 
-            string[] studentNames = new string[ogrenciSayi];
+            //string[] studentNames = new string[ogrenciSayi];
 
-            double[] ortalamaPuan = new double[ogrenciSayi];
+            //double[] ortalamaPuan = new double[ogrenciSayi];
 
-            for (int i = 0; i < ogrenciSayi; i++)
-            {
-                Console.Write($"{i + 1}. Öğrencinin Adını Giriniz: ");
-                name = Console.ReadLine();
-                studentNames[i] = name;
+            //for (int i = 0; i < ogrenciSayi; i++)
+            //{
+            //    Console.Write($"{i + 1}. Öğrencinin Adını Giriniz: ");
+            //    name = Console.ReadLine();
+            //    studentNames[i] = name;
 
-                Console.Write(" Vize Notu: ");
-                vize = int.Parse(Console.ReadLine());
-                
-                Console.Write(" Final Notu: ");
-                final = int.Parse(Console.ReadLine());
-                
-                ortalamaPuan[i] = (vize * 0.4) + (final * 0.6);
+            //    Console.Write(" Vize Notu: ");
+            //    vize = int.Parse(Console.ReadLine());
 
-                Console.WriteLine();
-            }
+            //    Console.Write(" Final Notu: ");
+            //    final = int.Parse(Console.ReadLine());
 
-            Console.WriteLine();
-            Console.WriteLine("--- Not Ortalamaları ---");
-            Console.WriteLine();
+            //    ortalamaPuan[i] = (vize * 0.4) + (final * 0.6);
 
-            for (int j = 0; j < ogrenciSayi; j++)
-            {
-                if (ortalamaPuan[j] >= 50)
-                {
-                    Console.WriteLine($"{j + 1}. {studentNames[j]} Adlı Öğrencinin Not Ortalaması: {ortalamaPuan[j]} => Dersten Geçti");
-                }
-                else
-                {
-                    Console.WriteLine($"{j + 1}. {studentNames[j]} Adlı Öğrencinin Not Ortalaması: {ortalamaPuan[j]} => Dersten Kaldı");
-                }
-            }
+            //    Console.WriteLine();
+            //}
+
+            //Console.WriteLine();
+            //Console.WriteLine("--- Not Ortalamaları ---");
+            //Console.WriteLine();
+
+            //for (int j = 0; j < ogrenciSayi; j++)
+            //{
+            //    if (ortalamaPuan[j] >= 50)
+            //    {
+            //        Console.WriteLine($"{j + 1}. {studentNames[j]} Adlı Öğrencinin Not Ortalaması: {ortalamaPuan[j]} => Dersten Geçti");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine($"{j + 1}. {studentNames[j]} Adlı Öğrencinin Not Ortalaması: {ortalamaPuan[j]} => Dersten Kaldı");
+            //    }
+            //}
 
             #endregion
 
