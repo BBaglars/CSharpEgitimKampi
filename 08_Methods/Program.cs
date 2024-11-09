@@ -137,7 +137,7 @@ namespace _08_Methods
 
             #endregion
 
-            #region Örnek Uygulama
+            #region Ornek Uygulama
 
             //string examresult(string student, int exam1, int exam2, int exam3)
             //{
