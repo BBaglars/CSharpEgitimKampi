@@ -26,3 +26,11 @@
 
 📍08_Methods: Burada geriye değer döndüren, döndürmeyen, parametreli ve parametresiz metotlar 
   konusunu tamamladım. Konunun pekişmesi için farklı örnek çalışmalar yaptım.
+  
+📍09_DatabaseProject: SQL üzerinden oluşturduğumuz EğitimKampiDb içerisinde bulunan tabloları
+  C# üzerinden listeleme işlemi yaptım. Bu kısım için özellikle veritabanını bağlama işlemleri ve 
+  bu işlemlerin amaçları üzerinde durduk.
+  
+📍10_DatabaseCrud: Bu kısım eğitimin 201 seviyesindeki son konu olacak. Burada hepimizin bildiği 
+  CRUD(Create, Read, Update, Delete) işlemlerini C# kodlarıyla gerçekleştirdim. En önemlisi de veritabanını 
+  programa bağlamak için daha fazla örnek yaparak konuyu iyice idrak ettim.
